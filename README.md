@@ -7,58 +7,95 @@ Determinar la impedancia y admitancia en circuitos RL Y RC en paralelo, serie y 
 
 MARCO TEÓRICO (RESUMEN)
 
-capitulo 15
-◆ Un número complejo representa una cantidad fasorial.
-◆ La forma rectangular de un número complejo consta de una parte real y una parte j de la forma A  jB.
-◆ La forma polar de un número complejo consta de una magnitud y un ángulo de la forma C ∠ u.
-◆ Los números complejos pueden ser sumados, restados, multiplicados y divididos.
-◆ Cuando se aplica un voltaje sinusoidal a un circuito RC, la corriente y todas las caídas de voltaje también
-son ondas seno.
-◆ La corriente total que circula en un circuito RC en serie o en paralelo siempre se adelanta al voltaje de
+Un número complejo representa una cantidad fasorial.
+
+La forma rectangular de un número complejo consta de una parte real y una parte j de la forma A jB.
+
+La forma polar de un número complejo consta de una magnitud y un ángulo de la forma C ∠ u.
+
+Los números complejos se pueden sumar, restar, multiplicar y dividir.
+
+Cuando se aplica un voltaje sinusoidal a un circuito RC, la corriente y todos los voltajes también caen
+
+Son ondas sinusoidales.
+
+La corriente total que fluye en un circuito RC en serie o en paralelo siempre se adelanta al voltaje de suministro.
+
 fuente.
-◆ El voltaje en el resistor siempre está en fase con la corriente.
-◆ El voltaje en el capacitor siempre se retrasa en 90° con respecto a la corriente.
-◆ En un circuito de retraso, el voltaje de salida se retrasa con respecto al voltaje de entrada en fase.
-◆ En un circuito de adelanto, el voltaje de salida se adelanta al voltaje de entrada.
-◆ En un circuito RC, tanto la resistencia como la reactancia capacitiva combinadas determinan la impedancia.
-◆ La impedancia se expresa en unidades de ohms.
-◆ El ángulo de fase del circuito es el ángulo entre la corriente total y el voltaje aplicado (fuente).
-◆ La impedancia de un circuito RC en serie varía inversamente con la frecuencia.
-◆ El ángulo de fase (u) de un circuito RC en serie varía inversamente con la frecuencia.
-◆ Para cada circuito RC en paralelo, existe un circuito en serie equivalente para cualquier frecuencia dada.
-◆ Para cada circuito RC en serie, existe un circuito equivalente en paralelo para cualquier frecuencia dada.
-◆ La impedancia de un circuito se determina midiendo el voltaje aplicado y la corriente total y aplicando
-luego la ley de Ohm.
-◆ En un circuito RC, una parte de la potencia es resistiva y otra es reactiva.
-◆ La combinación fasorial de la potencia resistiva (potencia real) y la potencia reactiva se llama potencia
-aparente.
-◆ La potencia aparente se expresa en volt-amperes (VA).
-◆ El factor de potencia (FP) indica cuánta de la potencia aparente es potencia real.
-◆ Un factor de potencia de 1 indica un circuito puramente resistivo, y un factor de potencia de 0 indica un
-circuito puramente reactivo.
-◆ Un filtro deja pasar ciertas frecuencias y rechaza a otras.
-◆ Un oscilador de desplazamiento de fase utiliza una red RC para producir un desplazamiento de fase de 180°.
+
+El voltaje a través de la resistencia siempre está en fase con la corriente.
+
+El voltaje a través del capacitor siempre tiene un retraso de 90° con respecto a la corriente.
+
+En un circuito retrasado, el voltaje de salida retrasa el voltaje de entrada en fase.
+
+En un circuito de adelanto, el voltaje de salida se adelanta al voltaje de entrada.
+
+En un circuito RC, tanto la resistencia como la reactancia capacitiva combinadas determinan la 
+impedancia.
+
+La impedancia se expresa en unidades de ohmios.
+
+El ángulo de fase del circuito es el ángulo entre la corriente total y el voltaje aplicado (fuente).
+
+La impedancia de un circuito RC en serie varía inversamente con la frecuencia.
+
+El ángulo de fase (u) de un circuito RC en serie varía inversamente con la frecuencia.
+
+Para cada circuito RC en paralelo, hay un circuito en serie equivalente para cualquierfrecuencia dada.
+
+Para cada circuito RC en serie, hay un circuito paralelo equivalente para cualquier frecuencia dada.
+
+La impedancia de un circuito se determina midiendo el voltaje aplicado y la corriente total y aplicando entonces la ley de Ohm.
+
+En un circuito RC, parte de la potencia es resistiva y parte es reactiva.
+
+La combinación fasorial de potencia resistiva (potencia real) y potencia reactiva se denomina potencia aparente.
+
+La potencia aparente se expresa en voltios-amperios (VA).
+
+El factor de potencia (PF) indica qué parte de la potencia aparente es potencia real.
+
+Un factor de potencia de 1 indica un circuito puramente resistivo y un factor de potencia de 0 indica un circuito puramente resistivo.
+
+Circuito puramente reactivo.
+
+Un filtro deja pasar ciertas frecuencias y rechaza otras.
+
+Un oscilador de cambio de fase utiliza una red RC para producir un cambio de fase de 180°.
 
 capitulo 16
 
-◆ Cuando se aplica un voltaje sinusoidal a un circuito RL, la corriente y todas las caídas de voltaje son ondas senoidales.
+Cuando se aplica un voltaje sinusoidal a un circuito RL, la corriente y todas las caídas de voltaje son ondas sinusoidales.
 
-◆ La corriente total en un circuito RL en serie o en paralelo siempre se retrasa con respecto al voltaje de fuente.
-◆ El voltaje a través del resistor siempre está en fase con la corriente.
-◆ En un inductor ideal, el voltaje siempre aparece 90° por delante de la corriente.
-◆ En un circuito de retraso, el voltaje de salida se retrasa con respecto al voltaje de entrada.
-◆ En un circuito de adelanto, el voltaje de salida se adelanta al voltaje de entrada.
-◆ En un circuito RL, tanto la resistencia como la reactancia inductiva combinadas determinan la impedancia.
-◆ La impedancia se expresa en unidades de ohms.
-◆ La impedancia de un circuito RL varía directamente con la frecuencia.
-◆ El ángulo de fase (u) de un circuito RL en serie varía directamente con la frecuencia.
+La corriente total en un circuito RL en serie o en paralelo siempre se retrasa con respecto al voltaje de la fuente.
 
-◆ Se puede determinar la impedancia de un circuito midiendo el voltaje aplicado y la corriente total y utilizando luego la ley de Ohm.
+El voltaje a través de la resistencia siempre está en fase con la corriente.
 
-◆ En un circuito RL, una parte de la potencia es resistiva y otra parte es reactiva.
-◆ El factor de potencia indica cuánto de la potencia aparente es potencia verdadera.
-◆ Un factor de potencia de 1 indica un circuito puramente resistivo, y un factor de potencia de 0 indica un circuito puramente reactivo.
-◆ Un filtro deja pasar ciertas frecuencias y rechaza otras.
+En un inductor ideal, el voltaje siempre aparece 90° por delante de la corriente.
+
+En un circuito de retardo, el voltaje de salida se retrasa con respecto al voltaje de entrada.
+
+En un circuito de adelanto, el voltaje de salida se adelanta al voltaje de entrada.
+
+En un circuito RL, tanto la resistencia como la reactancia inductiva combinadas determinan la impedancia.
+
+La impedancia se expresa en unidades de ohmios.
+
+La impedancia de un circuito RL varía directamente con la frecuencia.
+
+El ángulo de fase (u) de un circuito RL en serie varía directamente con la frecuencia.
+
+La impedancia de un circuito se puede determinar midiendo el voltaje aplicado y la corriente total y luego usando la ley de Ohm.
+
+
+En un circuito RL, parte de la potencia es resistiva y parte reactiva.
+
+El factor de potencia indica cuánto de la potencia aparente es potencia real.
+
+Un factor de potencia de 1 indica un circuito puramente resistivo y un factor de potencia de 0 indica un circuito puramente reactivo.
+
+Un filtro deja pasar ciertas frecuencias y rechaza otras.
 
 EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS
 
