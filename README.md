@@ -7,95 +7,75 @@ Determinar la impedancia y admitancia en circuitos RL Y RC en paralelo, serie y 
 
 MARCO TEÓRICO (RESUMEN)
 
-Un número complejo representa una cantidad fasorial.
+SISTEMA DE NÚMEROS COMPLEJOS: Los números complejos permiten operaciones matemáticas con cantidades fasoriales y son muy útiles en el análisis de circuitos de corriente alterna. Con el sistema de números complejos, puede sumar, restaurar, multiplicar y dividir cantidades que tienen tanto magnitud como ángulo, como ondas sinusoidales y otras cantidades de circuitos de CA. La mayoría de las calculadoras científicas realizan operaciones con números complejos. Consulte el manual del usuario para conocer el procedimiento exacto.
+Números positivos y números negativos Los números positivos están representados por puntos a la derecha del origen en el eje horizontal de un gráfico, y los números negativos están representados por puntos a la izquierda del origen. Además, en el eje vertical, los números positivos están representados por puntos que van hacia arriba desde el origen, y.
+El plano complejo Para distinguir entre valores ubicados en el eje horizontal y en el eje vertical, se utiliza un plano complejo. En él, el eje horizontal se llama eje real, y el eje vertical se llama eje imaginario. En el trabajo con circuitos eléctricos, se utiliza un prefijo +-j para designar números que se encuentran en el eje imaginario y así distinguirlos de los números ubicados en el eje real. Este prefijo se conoce como el operador j. En matemáticas se usa una i en lugar de una j, pero en circuitos eléctricos i puede confundirse con corriente instantánea, por lo que se usa j.
+Formas rectangulares y polares Las formas rectangulares y polares son dos formas de números complejos que se utilizan para representar cantidades fasoriales.
 
-La forma rectangular de un número complejo consta de una parte real y una parte j de la forma A jB.
+Conversión de forma rectangular a forma polar Un fasor puede existir en cualquiera de los cuatro cuadrantes del plano complejo. El ángulo de fase THETA se mide en cada caso con respecto al eje real positivo , y es el ángulo situado en el 2° y 3° cuadrante con respecto al eje real negativo.
+El primer paso para convertir de forma rectangular a forma polar es determinar la magnitud del fasor. Un fasor se puede visualizar como parte de un triángulo rectángulo en el plano complejo.
 
-La forma polar de un número complejo consta de una magnitud y un ángulo de la forma C ∠ u.
+Operaciones matemáticas
 
-Los números complejos se pueden sumar, restar, multiplicar y dividir.
+Suma Los números complejos deben estar en forma rectangular para poder sumarlos. La regla es: suma las partes reales de cada número complejo para obtener la parte real de la suma. A continuación, se suman las j partes de cada número complejo para obtener la j parte de la suma.
+Resta Al igual que la suma, los números deben estar en forma rectangular para restaurarlos.
 
-Cuando se aplica un voltaje sinusoidal a un circuito RC, la corriente y todos los voltajes también caen
+La multiplicación de dos números complejos es más fácil cuando ambos están en forma polar, por lo que es mejor convertirlos a forma polar antes de multiplicar. La regla es: Multiplica las magnitudes y suma los ángulos algebraicamente.
 
-Son ondas sinusoidales.
-
-La corriente total que fluye en un circuito RC en serie o en paralelo siempre se adelanta al voltaje de suministro.
-
-fuente.
-
-El voltaje a través de la resistencia siempre está en fase con la corriente.
-
-El voltaje a través del capacitor siempre tiene un retraso de 90° con respecto a la corriente.
-
-En un circuito retrasado, el voltaje de salida retrasa el voltaje de entrada en fase.
-
-En un circuito de adelanto, el voltaje de salida se adelanta al voltaje de entrada.
-
-En un circuito RC, tanto la resistencia como la reactancia capacitiva combinadas determinan la 
-impedancia.
-
-La impedancia se expresa en unidades de ohmios.
-
-El ángulo de fase del circuito es el ángulo entre la corriente total y el voltaje aplicado (fuente).
-
-La impedancia de un circuito RC en serie varía inversamente con la frecuencia.
-
-El ángulo de fase (u) de un circuito RC en serie varía inversamente con la frecuencia.
-
-Para cada circuito RC en paralelo, hay un circuito en serie equivalente para cualquierfrecuencia dada.
-
-Para cada circuito RC en serie, hay un circuito paralelo equivalente para cualquier frecuencia dada.
-
-La impedancia de un circuito se determina midiendo el voltaje aplicado y la corriente total y aplicando entonces la ley de Ohm.
-
-En un circuito RC, parte de la potencia es resistiva y parte es reactiva.
-
-La combinación fasorial de potencia resistiva (potencia real) y potencia reactiva se denomina potencia aparente.
-
-La potencia aparente se expresa en voltios-amperios (VA).
-
-El factor de potencia (PF) indica qué parte de la potencia aparente es potencia real.
-
-Un factor de potencia de 1 indica un circuito puramente resistivo y un factor de potencia de 0 indica un circuito puramente resistivo.
-
-Circuito puramente reactivo.
-
-Un filtro deja pasar ciertas frecuencias y rechaza otras.
-
-Un oscilador de cambio de fase utiliza una red RC para producir un cambio de fase de 180°.
-
-capitulo 16
-
-Cuando se aplica un voltaje sinusoidal a un circuito RL, la corriente y todas las caídas de voltaje son ondas sinusoidales.
-
-La corriente total en un circuito RL en serie o en paralelo siempre se retrasa con respecto al voltaje de la fuente.
-
-El voltaje a través de la resistencia siempre está en fase con la corriente.
-
-En un inductor ideal, el voltaje siempre aparece 90° por delante de la corriente.
-
-En un circuito de retardo, el voltaje de salida se retrasa con respecto al voltaje de entrada.
-
-En un circuito de adelanto, el voltaje de salida se adelanta al voltaje de entrada.
-
-En un circuito RL, tanto la resistencia como la reactancia inductiva combinadas determinan la impedancia.
-
-La impedancia se expresa en unidades de ohmios.
-
-La impedancia de un circuito RL varía directamente con la frecuencia.
-
-El ángulo de fase (u) de un circuito RL en serie varía directamente con la frecuencia.
-
-La impedancia de un circuito se puede determinar midiendo el voltaje aplicado y la corriente total y luego usando la ley de Ohm.
+Al igual que la multiplicación, la división es más fácil cuando los números están en forma polar, por lo que es mejor convertirlos a forma polar antes de dividir. La regla es: divide la magnitud del numerador por la magnitud del denominador para obtener la magnitud del cociente. Luego resta el ángulo del denominador del ángulo del numerador para obtener el ángulo del cociente.
+RESPUESTA SINUSOIDAL DE CIRCUITOS RC EN SERIE: Cuando se aplica un voltaje sinusoidal a un circuito RC dispuesto en serie, las caídas de voltaje y corriente resultantes en el circuito también son sinusoidales y tienen la misma frecuencia que el voltaje aplicado. La capacitancia provoca un cambio de fase entre el voltaje y la corriente, que depende de los valores relativos de resistencia y reactancia capacitiva.
+Las amplitudes y relaciones de fase de voltajes y corrientes dependen de los valores de resistencia y reactancia capacitiva. Cuando un circuito es puramente resistivo, el ángulo de fase entre el voltaje aplicado y la corriente total es cero. Cuando un circuito es puramente capacitivo, el ángulo de fase entre el voltaje aplicado y la corriente total es de 90°, con la corriente a la cabeza del voltaje. Cuando hay una combinación de resistencia y reactancia capacitiva en un circuito, el ángulo de fase entre el voltaje aplicado y la corriente total está entre 0° y 90°, dependiendo de los valores relativos de resistencia y reactancia capacitiva.
+IMPEDANCIA DE LOS CIRCUITOS RC EN SERIE: La impedancia de un circuito RC en serie consta de resistencia y reactancia capacitiva y es la oposición total a la corriente sinusoidal. Su unidad es el ohm. La impedancia también provoca una diferencia de fase entre la corriente total y el voltaje de la fuente. Por lo tanto, la impedancia se compone de una magnitud y un ángulo de fase.
 
 
-En un circuito RL, parte de la potencia es resistiva y parte reactiva.
+Recuerda que la multiplicación y la división son más fáciles de hacer con formas polares. Dado que los cálculos de la ley de Ohm involucran la multiplicación y la división, el voltaje, la corriente y la impedancia se pueden expresar en forma polar. Los siguientes dos ejemplos muestran la relación entre el voltaje de la fuente y la corriente.
+El circuito RC líder Un circuito RC líder es un circuito de cambio de fase en el que el voltaje de salida se adelanta al voltaje de entrada en una cantidad específica. Cuando la salida de un circuito RC en serie se toma a través de la resistencia en lugar del capacitor, se convierte en un circuito principal.
+Diferencia de fase entre entrada y salida En un circuito RC en serie, la corriente se adelanta al voltaje de entrada. Además, como se sabe, el voltaje a través de la resistencia está en fase con la corriente. Dado que el voltaje de salida se toma a través de la resistencia, la salida se adelanta a la entrada.
+En un circuito puramente resistivo, la impedancia es simplemente igual a la resistencia total. En un circuito puramente capacitivo, la impedancia es igual a la reactancia capacitiva total. Tanto la resistencia como la reactancia capacitiva determinan la impedancia de un circuito RC dispuesto en serie.
+La reactancia capacitiva es una cantidad fasorial y se expresa como un número complejo en forma rectangular de la siguiente manera: Xc = -jXc donde XC en negrita designa una cantidad fasorial y XC es simplemente la magnitud.
+ANÁLISIS DE CIRCUITOS RC EN SERIE: En esta sección, la ley de Ohm y la ley de voltaje de Kirchhoff se utilizan en el análisis de circuitos RC en serie para determinar el voltaje, las corrientes y la impedancia. Además, se examinan los circuitos RC de adelanto y atraso.
+Ley de Ohm La aplicación de la ley de Ohm a los circuitos RC dispuestos en serie implica el uso de las cantidades fasoriales Z, V e I. Tenga en cuenta que el uso de letras rectas en negrita indica que estas son cantidades fasoriales que incluyen tanto la magnitud como el ángulo. Las tres formas equivalentes de la ley de Ohm son las siguientes:
 
-El factor de potencia indica cuánto de la potencia aparente es potencia real.
+Recuerda que la multiplicación y la división son más fáciles de hacer con formas polares. Dado que los cálculos de la ley de Ohm involucran la multiplicación y la división, el voltaje, la corriente y la impedancia deben expresarse en forma polar. Los siguientes dos ejemplos muestran la relación entre el voltaje de la fuente y la corriente.
+El circuito RC líder Un circuito RC líder es un circuito de cambio de fase en el que el voltaje de salida se adelanta al voltaje de entrada en una cantidad específica. Cuando la salida de un circuito RC en serie se toma a través de la resistencia en lugar del capacitor, se convierte en un circuito principal.
+Diferencia de fase entre entrada y salida En un circuito RC en serie, la corriente se adelanta al voltaje de entrada. Además, como se sabe, el voltaje a través de la resistencia está en fase con la corriente. Dado que el voltaje de salida se toma a través de la resistencia, la salida se adelanta a la entrada.
+Al igual que en el circuito atrasado, la cantidad de diferencia de fase entre la entrada y la salida y la magnitud del voltaje de salida en el circuito principal dependen de los valores relativos de resistencia y reactancia capacitiva. Cuando al voltaje de entrada se le asigna un ángulo de referencia de 0°, el ángulo del voltaje de salida es el mismo que u porque el voltaje a través de la resistencia y la corriente están en fase. . . . . . juntos. Por lo tanto, como fi = theta en este caso, la expresión es fi = arctan
+IMPEDANCIA Y ADMITENCIA DE CIRCUITOS RC PARALELOS: En esta sección aprenderá cómo determinar la impedancia y el ángulo de fase de un circuito RC paralelo. La impedancia se compone de un componente de magnitud y un componente de ángulo de fase. Además, se introducen la susceptancia capacitiva y la admitancia de un circuito RC en paralelo.
+La expresión de la impedancia total se desarrolla de la siguiente manera, usando números complejos. Dado que solo hay dos componentes, R y C, la impedancia total se encuentra usando la regla del producto sobre la suma.
+ANÁLISIS DE CIRCUITOS RC PARALELOS: La ley de Ohm y la ley de corriente de Kirchhoff se utilizan en el análisis de circuitos RC. Se examinan las relaciones de corriente y voltaje en un circuito RC en paralelo. Por conveniencia, en el análisis de circuitos paralelos, las fórmulas de la ley de Ohm previamente establecidas que usan impedancia pueden reescribirse para la admitancia usando la relación Y = 1/Z. Recuerde que el uso de letras en negrita sin cursiva indica cantidades fasoriales.
 
-Un factor de potencia de 1 indica un circuito puramente resistivo y un factor de potencia de 0 indica un circuito puramente reactivo.
+ANÁLISIS DE CIRCUITOS SERIE-PARALELO RC: Los conceptos estudiados sobre circuitos dispuestos en serie-paralelo se utilizan para analizar circuitos que tienen combinaciones de componentes R y C tanto en serie como en paralelo.
+La impedancia de los componentes dispuestos en serie es más fácil de expresar en forma rectangular, y la impedancia de los componentes dispuestos en paralelo se encuentra mejor utilizando la forma polar. . Primero expresamos la impedancia de la parte en serie del circuito en forma rectangular y la impedancia de la parte en paralelo en forma polar. Luego, la impedancia de la parte paralela se convierte a forma rectangular y se suma a la impedancia de la parte en serie. Una vez que se ha determinado la forma rectangular de la impedancia total, se puede convertir a forma polar para obtener la magnitud y el ángulo de fase y calcular la corriente.
 
-Un filtro deja pasar ciertas frecuencias y rechaza otras.
+POTENCIA EN CIRCUITOS RC: En un circuito CA puramente resistivo, la resistencia disipa toda la potencia suministrada por la fuente en forma de calor. En un circuito ca puramente capacitivo, el capacitor almacena toda la energía suministrada por la fuente durante una parte del ciclo de voltaje y luego la devuelve a la fuente durante otra parte del ciclo, por lo que no hay conversión de energía en calor. Cuando hay resistencia y capacitancia, almacena la capacitancia y alternativamente devuelve parte de la energía y la resistencia disipa parte de ella. Los valores relativos de resistencia y reactancia capacitiva determinan la cantidad de energía convertida en calor.
+Cuando la resistencia en un circuito RC en serie es mayor que la reactancia capacitiva, la resistencia convierte en calor una mayor parte de la energía total suministrada por la fuente que la que almacena el capacitor.
+
+CAPÍTULO 16
+
+RESPUESTA SINUSOIDAL DE LOS CIRCUITOS EN SERIE RL: Al igual que en el circuito RC, en un circuito en serie RL todas las corrientes y todos los voltajes son sinusoidales cuando el voltaje de entrada es sinusoidal. La inductancia provoca un desfase entre tensión y corriente que depende de los valores relativos de resistencia y reactancia inductiva.
+En un circuito RL, el voltaje y la corriente del resistor van a la zaga del voltaje de la fuente. El voltaje a través del inductor se adelanta al voltaje de la fuente. Idealmente, el ángulo de fase entre la corriente y el voltaje en el inductor es siempre de 90°.
+Tenga en cuenta que difieren de los del circuito RC discutidos en el Capítulo 15. Las amplitudes y las relaciones de fase de los voltajes y la corriente dependen de los valores de resistencia y reactancia inductiva. Cuando un circuito es puramente inductivo, el ángulo de fase entre el voltaje aplicado y la corriente total es de 90°, y la corriente se retrasa con respecto al voltaje. Cuando hay una combinación de resistencia y reactancia inductiva en un circuito, el ángulo de fase está entre 0° y 90°, dependiendo de los valores relativos de resistencia y reactancia inductiva. Recuerde que los inductores prácticos tienen resistencia de devanado, capacitancia entre devanados y otros factores que les impiden comportarse como un componente ideal.
+
+
+Z = R + jXL
+
+ANÁLISIS DE CIRCUITO SERIAL RL: En esta sección, la ley de Ohm y la ley de voltaje de Kirchhoff se utilizan para realizar un análisis de circuito serie RL para determinar el voltaje, la corriente y la impedancia. También se examinan los circuitos RL de adelanto y atraso.
+
+
+Recuerde que dado que los cálculos de la ley de Ohm involucran operaciones de multiplicación y división, el voltaje, la corriente y la impedancia deben expresarse en forma polar.
+Relaciones de fase de corriente y voltaje En un circuito RL en serie, la corriente es la misma a través de la resistencia y el inductor. Por lo tanto, el voltaje del resistor está en fase con la corriente y el voltaje del inductor aparece 90° por delante de la corriente. Por lo tanto, hay una diferencia de fase de 90° entre el voltaje del resistor, VR, y el voltaje del inductor, VL.
+
+El circuito RL retrasado El circuito RL retrasado es un circuito de cambio de fase en el que el voltaje de salida se retrasa con respecto al voltaje de entrada en una cantidad específica. Donde la salida de un circuito RL en serie pasa a través de resistencia en lugar de inductancia. La impedancia consiste en la amplitud y el ángulo de fase. Además, se ha introducido la susceptancia inductiva y la admisión de un circuito RL dispuesto en paralelo.
+
+La expresión de la impedancia total de un circuito RL en paralelo de dos componentes se desarrolla de la siguiente manera, aplicando la regla del producto sobre la suma. Se examinan las relaciones de corriente y voltaje en un circuito RL en paralelo. Recuerde que la impedancia de la componente en serie se expresa más fácilmente en forma rectangular y la impedancia de la componente en paralelo se calcula más fácilmente en forma polar. Pasos para analizar un circuito que tiene componentes en serie y en paralelo.
+
+Primero expresamos la impedancia de la parte en serie del circuito en forma rectangular y la impedancia de la parte en paralelo en forma polar. Luego, la impedancia de la parte paralela se convierte a forma rectangular y se suma a la impedancia de la parte en serie. Una vez que se determina la forma rectangular de la impedancia total, se puede convertir a forma polar para mostrar la amplitud y el ángulo de fase y calcular la corriente. En un circuito de CA puramente inductivo, el inductor almacena toda la energía suministrada por la fuga en su campo magnético durante la parte de voltaje del ciclo y luego devuelve la fuga durante otra parte del ciclo, por lo que no hay conversión.
+
+Cuando en un circuito en serie RL la resistencia es mayor que la reactancia inductiva, la resistencia convierte en calor una mayor parte de la energía total suministrada por la fuente que la almacenada por el inductor. Como es sabido, la potencia disipada en una resistencia se denomina potencia real o activa. Recuerde que el factor de potencia es igual al coseno de u PF = cos . A medida que aumenta el ángulo de fase entre el voltaje aplicado y la corriente total, el factor de potencia disminuye, lo que indica un circuito cada vez más sensible.
+
+Un factor de potencia más bajo indica menos potencia real y más potencia reactiva.
+
+
 
 EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS
 
@@ -478,7 +458,7 @@ VR2 = VR3 = VL2 = 0 V
 
 Video
 
-https://youtu.be/szzrYHsxv08
+https://youtu.be/vZmxgRwOB9w
 
 Conclusiones
 
